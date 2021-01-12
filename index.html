@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watch</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <section class="banner">
+<header>
+    <a href="#" class="logo">Watch</a>
+    <div class="toggle" onclick="toggle();"></div>
+</header>
+
+<div class="content">
+    <div class="contentBx">
+         <h2> Future on <br> Your Hand </h2>
+         <p>Disclaimer video is for educational purpose only. Copyright Disclaimer Under Section 107 of the Copyright Act 1976, allowance is made for "fair use" for purposes such</p>
+         <a href="#">Buy Now </a>
+    </div>
+    <div class="imgBx"> 
+ <img src="img/watch.png" alt="">
+</div>
+</div>
+<ul class="sci">
+ <li><a href="#"><img src="img/facebook.png" alt=""> </a></li>
+ <li><a href="#"><img src="img/twitter.png" alt=""> </a></li>
+ <li><a href="#"><img src="img/instagram.png" alt=""> </a></li>
+</ul>
+<ul class="menu">
+ <li><a href="#">Home </a></li>
+ <li><a href="#">About </a></li>
+ <li><a href="#">Products </a></li>
+ <li><a href="#">Store </a></li>
+ <li><a href="#">Contact </a></li>
+</ul>
+    </section>
+
+ <script>
+  function toggle(){
+      const toggle = document.querySelector('.toggle');
+      const banner = document.querySelector('.banner');
+
+      toggle.classList.toggle('active')
+      banner.classList.toggle('active')
+  }
+
+
+
+ </script>   
+
+</body>
+</html>
